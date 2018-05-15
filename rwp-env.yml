@@ -1,0 +1,20 @@
+#execute
+#export COIN_INSTALL_DIR=$HOME/CONDA_DIR/envs/tracer-env
+#eg export COIN_INSTALL_DIR=/Users/scollis/anaconda3/envs/tracer-env
+name: rwp-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - cython
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - xarray
+  - netcdf4
+  - cartopy
+  - pandas
+  - metpy
+  - siphon
